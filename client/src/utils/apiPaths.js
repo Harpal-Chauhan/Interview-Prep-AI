@@ -1,5 +1,5 @@
-// Base URL
-export const BASE_URL = 'https://interview-prep-ai-dvqb.onrender.com';
+
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 // All API Endpoints
 export const API_PATHS = {
