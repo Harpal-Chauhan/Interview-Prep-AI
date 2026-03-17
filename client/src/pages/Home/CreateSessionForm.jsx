@@ -56,8 +56,6 @@ const CreateSessionForm = () => {
         questions: generatedQuestions,
       });
 
-      console.log('SESSION RESPONSE:', response.data);
-
       if (response.data?.session?._id) {
         navigate(`/interview-prep/${response.data?.session?._id}`);
       }

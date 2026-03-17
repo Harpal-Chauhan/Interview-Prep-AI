@@ -80,7 +80,7 @@ const loginUser = async (req, res) => {
       token: generateToken(user._id),
     })
   } catch (error) {
-    console.log(error) // terminal me error dikhega
+    // console.log(error) // terminal me error dikhega
     res.status(500).json({ message: 'Server error', error: error.message })
   }
 }

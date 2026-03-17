@@ -98,7 +98,7 @@ exports.generateConceptExpanation = async (req, res) => {
 try {
   data = JSON.parse(rawText)
 } catch (err) {
-  console.log("Raw AI Output:", rawText)
+  // console.log("Raw AI Output:", rawText)
 
   // Fallback: Try extracting JSON safely
   const match = rawText.match(/\{[\s\S]*\}/)

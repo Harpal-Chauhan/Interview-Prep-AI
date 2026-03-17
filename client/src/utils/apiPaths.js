@@ -1,5 +1,5 @@
 // Base URL
-export const BASE_URL = 'http://localhost:8000';
+export const BASE_URL = 'https://interview-prep-ai-dvqb.onrender.com';
 
 // All API Endpoints
 export const API_PATHS = {

@@ -41,7 +41,7 @@ exports.createSession = async (req, res) => {
   session: updatedSession
 })
   } catch (error) {
-    console.log('SESSION ERROR:', error)
+    // console.log('SESSION ERROR:', error)
     res.status(500).json({ success: false })
   }
 }
@@ -57,8 +57,8 @@ exports.getMySession = async (req, res) => {
 
     res.status(200).json(sessions)
   } catch (error) {
-    console.log("GET SESSION ERROR:", error)
-    console.log(error)
+    // console.log("GET SESSION ERROR:", error)
+    // console.log(error)
     res.status(500).json({ success: false })
   }
 }
