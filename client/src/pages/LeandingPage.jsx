@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import iv from '../assets/iv.png';
+import iv from '../assets/IV.png';
 import Login from './Auth/Login';
 import SignUp from './Auth/SignUp';
 import Modal from '../components/Modal';
