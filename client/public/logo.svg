@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="90" fill="#0B1120"/>
+
+  <!-- Chat Bubble -->
+  <g transform="translate(96,90)">
+    <rect x="0" y="0" width="320" height="240" rx="60" fill="url(#grad)" opacity="0.15"/>
+    <path d="M60 240 L100 200 L140 240 Z" fill="url(#grad)" opacity="0.15"/>
+  </g>
+
+  <!-- AI Face -->
+  <g transform="translate(156,140)">
+    <rect x="0" y="0" width="200" height="120" rx="40" fill="url(#grad)" opacity="0.9"/>
+    
+    <!-- Eyes -->
+    <circle cx="60" cy="60" r="8" fill="#0B1120"/>
+    <circle cx="140" cy="60" r="8" fill="#0B1120"/>
+  </g>
+
+  <!-- Sparkles -->
+  <circle cx="380" cy="130" r="6" fill="#06B6D4"/>
+  <circle cx="410" cy="100" r="4" fill="#7C3AED"/>
+
+  <!-- Text -->
+  <text x="50%" y="380" text-anchor="middle"
+        fill="#E5E7EB"
+        font-size="36"
+        font-family="Arial, sans-serif"
+        font-weight="bold">
+    InterviewPrep
+  </text>
+
+  <text x="50%" y="420" text-anchor="middle"
+        fill="url(#grad)"
+        font-size="28"
+        font-family="Arial, sans-serif"
+        font-weight="bold">
+    AI
+  </text>
+</svg>
