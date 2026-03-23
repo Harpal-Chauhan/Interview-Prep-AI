@@ -55,7 +55,7 @@ export default function Dashboard() {
       {/* Page Header */}
       <div className="max-w-7xl mx-auto px-6 mt-6 flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-white">Interview Sessions</h1>
+          <h1 className="text-xl sm:text-lg sm:text-xl md:text-2xl md:text-3xl font-bold text-white">Interview Sessions</h1>
           <p className="text-gray-400 text-sm mt-1">Manage and practice your interview sessions</p>
         </div>
 

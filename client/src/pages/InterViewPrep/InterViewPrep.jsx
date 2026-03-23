@@ -143,7 +143,7 @@ const InterViewPrep = () => {
         />
 
         <div className="bg-white rounded-2xl shadow-md border border-gray-100 p-5">
-          <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4 border-b pb-2">
+          <h2 className="text-xl md:text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-4 border-b pb-2">
             Interview Q&A
           </h2>
 

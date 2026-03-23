@@ -59,7 +59,7 @@ const AIResponsePreview = ({ content }) => {
               );
             },
             h1({ children }) {
-              return <h1 className="text-2xl font-bold text-gray-900 my-4">{children}</h1>;
+              return <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 my-4">{children}</h1>;
             },
             h2({ children }) {
               return <h2 className="text-xl font-semibold text-gray-900 my-3">{children}</h2>;

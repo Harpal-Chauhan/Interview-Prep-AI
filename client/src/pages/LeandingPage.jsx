@@ -36,7 +36,7 @@ export default function LandingPage() {
               <span className="relative">🤖</span>
             </div>
 
-            <h1 className="text-3xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+            <h1 className="text-xl sm:text-lg sm:text-xl md:text-2xl md:text-3xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
               Interview Prep AI
             </h1>
           </div>

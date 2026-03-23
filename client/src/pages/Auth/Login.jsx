@@ -54,7 +54,7 @@ const Login = ({ setCurrentPage }) => {
   return (
     <div className="w-full max-w-md p-10 rounded-2xl bg-slate-900 border border-slate-700 shadow-xl">
       {/* Heading */}
-      <h2 className="text-3xl font-bold text-center text-white">Login</h2>
+      <h2 className="text-xl sm:text-lg sm:text-xl md:text-2xl md:text-3xl font-bold text-center text-white">Login</h2>
 
       <p className="text-center text-gray-400 mt-2 mb-8 text-sm">Enter your email and password</p>
 

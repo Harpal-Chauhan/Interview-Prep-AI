@@ -16,7 +16,7 @@ const RoleInfoHeader = ({
             <div>
               <div>
                 <div className="flex flex-col gap-1">
-                  <h2 className="text-2xl md:text-3xl font-bold text-gray-800 tracking-tight">
+                  <h2 className="text-lg sm:text-xl md:text-2xl md:text-xl sm:text-lg sm:text-xl md:text-2xl md:text-3xl font-bold text-gray-800 tracking-tight">
                     {role}
                   </h2>
                   <p className="text-sm text-indigo-500 font-medium"> {topicsToFocus}</p>

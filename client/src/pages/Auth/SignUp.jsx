@@ -72,7 +72,7 @@ const SignUp = ({ setCurrentPage }) => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-900 px-4 py-6">
       <div className="w-full max-w-sm p-6 rounded-xl bg-slate-900 border border-slate-700 shadow-lg">
-        <h2 className="text-2xl font-bold text-center text-white">Create Account</h2>
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-center text-white">Create Account</h2>
 
         <p className="text-center text-gray-400 mt-1 mb-5 text-sm">Enter your details to sign up</p>
 
